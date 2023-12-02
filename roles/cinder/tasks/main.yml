@@ -15,4 +15,4 @@
     - name: Create Cinder database
       command: cinder-manage db sync
       become_user: cinder
-      
+
